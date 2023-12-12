@@ -18,12 +18,12 @@ public final class Constants {
   }
 
   public static class ArmConstants {
-    public static final int ARM_CAN_ID = 0;
+    public static final int ARM_CAN_ID = 10;
     public static final boolean IS_INVERTED = false;
-    public static final double ARM_P = 0.1; //proportional
-    public static final double ARM_I = 0.1; //integral
-    public static final double ARM_D = 0.1; //derivative/dampening
-    public static final double ARM_FF = 0.1;
+    public static final double ARM_P = 0.05;
+    public static final double ARM_I = 0.0;
+    public static final double ARM_D = 0.0;
+    public static final double ARM_FF = 0.0;
   }
 
 }
